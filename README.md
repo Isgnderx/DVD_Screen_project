@@ -4,7 +4,7 @@ Do you remember those hours spent staring at the TV, holding your breath, waitin
 
 <div align="center">
 
-# 📀 DVD Screensaver
+# DVD Screensaver
 
 <img src="dvd.gif" width="600">
 
