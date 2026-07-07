@@ -3,18 +3,13 @@
 int main() {
     sf::RenderWindow window(sf::VideoMode(800, 600), "DVD Screensaver");
     
-    // 1. Doku (Texture) yükle
     sf::Texture texture;
     if (!texture.loadFromFile("dvd.png")) {
-        // Hata durumunda (dosya bulunamazsa) programı kapat
         return -1; 
     }
 
-    // 2. Sprite oluştur ve dokuyu ata
     sf::Sprite dvd;
     dvd.setTexture(texture);
-    
-    // Logonun boyutunu isteğine göre küçültebilirsin (örnek: 0.5 katı)
     dvd.setScale(0.2f, 0.2f);
 
     float posX = 400.f, posY = 300.f;
@@ -29,7 +24,6 @@ int main() {
         posX += velX;
         posY += velY;
 
-        // Çarpışma kontrolü (Resmin genişliğini alarak)
         float width = dvd.getGlobalBounds().width;
         float height = dvd.getGlobalBounds().height;
 
