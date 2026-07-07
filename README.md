@@ -2,6 +2,8 @@
 
 Do you remember those hours spent staring at the TV, holding your breath, waiting for the DVD logo to perfectly hit the corner? Well, now you can relive that legendary moment on your own computer!
 
+![DVD Screensaver Demo](giphy.gif)
+
 ## 🚀 About the Project
 This project is a minimalist, yet incredibly satisfying, screensaver simulation built with C++ and SFML. It’s a tribute to pure nostalgia, featuring smooth physics and that one-in-a-million moment when the logo strikes the corner.
 
